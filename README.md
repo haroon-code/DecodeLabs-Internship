@@ -90,6 +90,54 @@ Skills Used
 - COUNT, SUM, AVG, MAX, MIN — Aggregation functions
 - HAVING — Filtering after grouping
 
+Project 4: Data Visualization
+
+Project Overview
+The goal was to create professional, boardroom-ready data visualizations from the e-commerce dataset to communicate insights clearly using charts and data storytelling.
+
+Dataset Information
+- Total Orders: 1,200
+- Time Period: January 2023 — June 2025
+- Total Columns: 14
+- Tool Used: Python (Google Colab), Matplotlib, Pandas
+
+What I Did
+- Loaded and cleaned the dataset using Pandas
+- Fixed date formats and created a Month column for trend analysis
+- Created 5 professional charts following data visualization best practices
+- Applied the SCR (Situation–Complication–Resolution) storytelling framework
+- Used action titles that state the conclusion, not just the topic
+- Removed chartjunk and used color only to highlight key insights
+
+Charts Created
+1. **Revenue by Product** — Horizontal bar chart showing Phones as top revenue generator
+2. **Orders Over Time** — Line chart showing monthly order trends with peak annotation
+3. **Order Status Breakdown** — Horizontal bar chart showing only 22% of orders are Delivered
+4. **Revenue by Referral Source** — Horizontal bar chart showing Instagram drives highest revenue
+5. **Payment Method Usage** — Horizontal bar chart showing Online as most preferred method
+
+Key Findings
+1. Phones generate the highest total revenue across all product categories
+2. Only 22% of orders reach Delivered status — 78% are Cancelled, Returned, Shipped or Pending
+3. Instagram is the top revenue-driving marketing channel
+4. Online payment is the most preferred method among customers
+5. Order volume fluctuates monthly — peak months need extra inventory planning
+
+Data Story (SCR Framework)
+Situation: DecodeLabs processed 1,200 e-commerce orders across 7 product categories between 2023 and 2025
+Complication: Only 22% of orders are fully Delivered — Cancellations and Returns are critically high, putting revenue at serious risk
+Resolution: Focus inventory on Phones and Laptops, increase Instagram ad spend, and urgently investigate root causes of Cancellations and Returns
+
+Skills Used
+pandas: Data loading, cleaning, and grouping
+matplotlib: Chart creation and styling
+Horizontal Bar Charts: Category comparisons
+Line Chart: Trend over time
+Action Titles: Stating conclusions not just topics
+Data-Ink Ratio: Removing chartjunk for clean visuals
+Color as Spotlight: One accent color for key insight
+SCR Framework: Structured data storytelling
+
 Author
 - Internship: DecodeLabs Data Analytics Internship
 - Batch: 2026
